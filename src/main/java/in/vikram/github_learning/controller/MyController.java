@@ -24,5 +24,11 @@ public class MyController {
         return "Hi I am Ram Sharma";
     }
 
+    @GetMapping("/m3")
+    public String m3(){
+        System.out.println("m3() method is there");
+        return "m3";
+    }
+
 
 }
