@@ -27,7 +27,6 @@ public class MyController {
     @GetMapping("/m3")
     public String m3(){
         System.out.println("m3() method is there");
-        System.out.println("*************");
         return "m3";
     }
 
