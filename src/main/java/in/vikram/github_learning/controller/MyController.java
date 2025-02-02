@@ -16,7 +16,7 @@ public class MyController {
 
     @GetMapping("/m2")
     public String m2(){
-        int x = 34;
+        String x = "Hello";
         System.out.println("Hi This is vikram Sharma");
         return "Hi I am Ram Sharma";
     }
