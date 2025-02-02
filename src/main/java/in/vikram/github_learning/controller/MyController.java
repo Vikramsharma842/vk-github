@@ -16,6 +16,7 @@ public class MyController {
 
     @GetMapping("/m2")
     public String m2(){
+        System.out.println("m2() method");
         return "Hi I am Ram Sharma";
     }
 
