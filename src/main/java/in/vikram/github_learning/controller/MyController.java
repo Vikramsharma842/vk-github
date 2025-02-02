@@ -32,6 +32,15 @@ public class MyController {
         return "m3";
     }
 
+    @GetMapping("/m4")
+    public String m4(){
+        System.out.println("m4() method ");
+        return "m4() method";
+    }
+
+
+
+
 
 
 }
