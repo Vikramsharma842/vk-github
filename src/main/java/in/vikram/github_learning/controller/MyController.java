@@ -14,5 +14,10 @@ public class MyController {
         return "Hi I am Vikram Sharma";
     }
 
+    @GetMapping("/m2")
+    public String m2(){
+        return "Hi I am Ram Sharma";
+    }
+
 
 }
