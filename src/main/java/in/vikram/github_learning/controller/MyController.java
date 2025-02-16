@@ -36,6 +36,9 @@ public class MyController {
     public String m4(){
         System.out.println("m4() method ");
         System.out.println("m4 new way");
+
+        System.out.println("-------");
+        System.out.println("=========");
         return "m4() method";
     }
 
