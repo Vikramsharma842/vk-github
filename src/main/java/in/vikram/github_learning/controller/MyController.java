@@ -35,6 +35,7 @@ public class MyController {
     @GetMapping("/m4")
     public String m4(){
         System.out.println("m4() method ");
+        System.out.println("m4 new way");
         return "m4() method";
     }
 
